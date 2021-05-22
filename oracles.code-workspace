@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "../Template/oracle/src"
+		},
+		{
+			"path": "../../../../../var/www/websites/Oracle"
+		},
+		{
+			"path": "src"
+		}
+	],
+    "settings": {}
+}

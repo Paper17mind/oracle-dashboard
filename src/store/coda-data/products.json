@@ -1,0 +1,733 @@
+{
+    "promoBannerSection": {
+        "cycleTime": 5000,
+        "images": [{
+                "srcUrl": "https://cdn1.codashop.com/S/content/common/images/promos/111/pubg_ovo_id.jpg",
+                "altText": "PUBG OVO Promo on Codashop Indonesia",
+                "href": "https://news.codashop.com/id/promo-ovo-bonus-uc-pubgm-sd-55/",
+                "starttime": "2021-04-01T15:00:00.000Z",
+                "endtime": "2021-04-14T00:00:00.000Z"
+            },
+            {
+                "srcUrl": "https://cdn1.codashop.com/S/content/common/images/promos/111/mlbb_kagura_en.jpg",
+                "altText": "Starlight Member - Kagura Skin on Codashop Indonesia",
+                "href": "https://news.codashop.com/id/skin-starlight-member-kagura-rainy-walk/",
+                "starttime": "2021-04-01T15:00:00.000Z",
+                "endtime": "2021-04-15T23:59:00.000Z"
+            },
+            {
+                "srcUrl": "https://cdn1.codashop.com/S/content/common/images/promos/111/cv_pl_id.jpg",
+                "altText": "Club Vegas Product Launch on Codashop Indonesia",
+                "href": "https://www.codashop.com/id/club-vegas?promo_name=ID_Club-Vegas-Slot---Codashop-Launch_05-04-2021&promo_position=3",
+                "starttime": "2021-04-12T11:30:00.000Z",
+                "endtime": "2021-04-19T00:30:00.000Z"
+            },
+            {
+                "srcUrl": "https://cdn1.codashop.com/S/content/common/images/promos/110/codaclub_leaderboard_id.jpg",
+                "altText": "Codaclub Community Monthly Leaderboard on Codashop Indonesia",
+                "href": "https://community.codashop.com/id/discussion/2108/leaderboard-challenge-menangin-in-game-cash-hingga-season-pass-game-favorit-kamu#latest",
+                "starttime": "2021-04-01T17:00:00.000Z",
+                "endtime": "2021-04-30T11:00:00.000Z"
+            },
+            {
+                "srcUrl": "https://cdn1.codashop.com/S/content/common/images/promos/110/pubg_hr_id.jpg",
+                "altText": "PUBG Hundred Rhythms on Codashop Indonesia",
+                "href": "https://news.codashop.com/id/pubg-mobile-season-18-kemampuan-musik-peta-baru-yang-membuat-permainan-kamu-lebih-seru/",
+                "starttime": "2021-02-17T18:30:00.000Z"
+            },
+            {
+                "srcUrl": "https://cdn1.codashop.com/S/content/common/images/promos/108/codashop_codaclubnew_id.jpg",
+                "altText": "Codaclub Community Indonesia ",
+                "href": "https://community.codashop.com/id",
+                "starttime": "2021-01-21T07:00:00.000Z"
+            }
+        ]
+    },
+    "categorySection-3": {
+        "name": "Populer",
+        "shortDescription": "",
+        "products": [{
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/mlbb_tile.jpg",
+                "productName": "Mobile Legends",
+                "productUrl": "/id/mobile-legends"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/freefire_tile.jpg",
+                "productName": "Free Fire",
+                "productUrl": "/id/free-fire"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/genshin_tile.png",
+                "productName": "Genshin Impact",
+                "productUrl": "/id/genshin-impact"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/lolwildrift_tile.png",
+                "productName": "League of Legends: Wild Rift",
+                "productUrl": "/id/league-of-legends-wild-rift"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pubgm_rps_tile.jpg",
+                "productName": "PUBG Mobile",
+                "productUrl": "https://www.midasbuy.com/coda/id/pubgm?from=__mds_buy_coda.codashop_id"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/valorant_tile.jpg",
+                "productName": "VALORANT",
+                "productUrl": "/id/valorant"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/lor_tile.jpg",
+                "productName": "Legends of Runeterra",
+                "productUrl": "/id/legends-of-runeterra"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/codmobile_tile.jpg",
+                "productName": "Call of Duty Mobile",
+                "productUrl": "/id/call-of-duty-mobile"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/tinder_tile.jpg",
+                "productName": "Tinder Direct Top-up",
+                "productUrl": "/id/tinder"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/TopEleven_tile.jpg",
+                "productName": "Top Eleven",
+                "productUrl": "/id/top-eleven"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/hago_tile.jpg",
+                "productName": "HAGO",
+                "productUrl": "/id/hago"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/higgs_domino_tile.jpg",
+                "productName": "Higgs Domino",
+                "productUrl": "/id/higgs-domino"
+            }
+        ]
+    },
+    "categorySection": {
+        "name": "Top-up Game Langsung",
+        "shortDescription": "",
+        "products": [{
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/onepunchman_tile.png",
+                "productName": "One Punch Man",
+                "productUrl": "/id/one-punch-man"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/dragonraja_tile.png",
+                "productName": "Dragon Raja",
+                "productUrl": "/id/dragon-raja"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/candycrush_tile.png",
+                "productName": "Candy Crush Saga",
+                "productUrl": "/id/candy-crush-saga"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/clubvegas_tile.png",
+                "productName": "Club Vegas",
+                "productUrl": "/id/club-vegas"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/zepeto_tile.png",
+                "productName": "Zepeto",
+                "productUrl": "/id/zepeto"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/spiritland_tile.png",
+                "productName": "Spirit Land",
+                "productUrl": "/id/spirit-land"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/WWH_tile.png",
+                "productName": "World War Heroes",
+                "productUrl": "/id/world-war-heroes"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/omegalegends_tile.png",
+                "productName": "Omega Legends",
+                "productUrl": "/id/omega-legends"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/nfs_tile.jpg",
+                "productName": "Need for Speed No Limits",
+                "productUrl": "/id/need-for-speed-no-limits"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ml_adventure_tile.png",
+                "productName": "Mobile Legends: Adventure",
+                "productUrl": "/id/mobile-legends-adventure"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/basketrio_tile.png",
+                "productName": "Basketrio",
+                "productUrl": "/id/basketrio"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/mgg_tile.png",
+                "productName": "MoeGirl Go!",
+                "productUrl": "/id/moegirl-go"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/leagueofthreekingdoms_tile.png",
+                "productName": "League of Three Kingdoms",
+                "productUrl": "/id/league-of-three-kingdoms"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/cookingadventure_tile.png",
+                "productName": "Cooking Adventure",
+                "productUrl": "/id/cooking-adventure"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/a9_tile.jpg",
+                "productName": "Asphalt 9: Legends",
+                "productUrl": "/id/asphalt-9-legends"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/mc5_tile.png",
+                "productName": "Modern Combat 5: Blackout",
+                "productUrl": "/id/modern-combat-5-blackout"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ovastar_tile.png",
+                "productName": "Kris Destiny: Immortal Sword",
+                "productUrl": "/id/kris-destiny-immortal-sword"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/badlanders_tile.jpg",
+                "productName": "Badlanders",
+                "productUrl": "/id/badlanders"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ros_tile.jpg",
+                "productName": "Rules of Survival",
+                "productUrl": "/id/rules-of-survival"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/he_tile.jpg",
+                "productName": "Heroes Evolved",
+                "productUrl": "/id/heroes-evolved"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/azurlane_tile.png",
+                "productName": "Azur Lane",
+                "productUrl": "/id/azur-lane"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/luxy_tile.jpg",
+                "productName": "Luxy: Domino and Poker",
+                "productUrl": "/id/luxy-domino-and-poker"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/idolparty_tile.png",
+                "productName": "Idol Party",
+                "productUrl": "/id/idol-party"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ag_tile.png",
+                "productName": "Astral Guardians:Cyber Fantasy",
+                "productUrl": "/id/astral-guardians-cyber-fantasy"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/msoul_tile.png",
+                "productName": "Mahjong Soul",
+                "productUrl": "/id/mahjong-soul"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/cb_tile.jpg",
+                "productName": "Cooking Battle",
+                "productUrl": "/id/cooking-battle"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/vngdcs_tile.png",
+                "productName": "Samurai Era: Rise of Empires",
+                "productUrl": "/id/samurai-era-rise-of-empires"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/goddessmua_tile.png",
+                "productName": "Goddess MUA",
+                "productUrl": "/id/goddess-mua"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/marvelduel_tile.png",
+                "productName": "MARVEL Duel",
+                "productUrl": "/id/marvel-duel"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/tjc_tile.jpg",
+                "productName": "Tom and Jerry: Chase",
+                "productUrl": "/id/tom-and-jerry-chase"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/betheking_tile.png",
+                "productName": "Be The King: Judge Destiny",
+                "productUrl": "/id/be-the-king-judge-destiny"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Scroll of Onmyoji_tile.jpg",
+                "productName": "Scroll of Onmyoji: Sakura & Sword",
+                "productUrl": "/id/scroll-of-onmyoji-sakura--sword"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/ragnarok_tile.jpg",
+                "productName": "Ragnarok M",
+                "productUrl": "/id/ragnarok-m-eternal-love-big-cat-coin"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/idle_legends_tile.jpg",
+                "productName": "Idle Legends",
+                "productUrl": "/id/idle-legends"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/MARVELsuperwar_tile.png",
+                "productName": "MARVEL Super War",
+                "productUrl": "/id/marvel-super-war"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/honkaiimpact3_tile.png",
+                "productName": "Honkai Impact 3",
+                "productUrl": "/id/honkai-impact-3"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/PointBlank_ID_tile.jpg",
+                "productName": "Point Blank",
+                "productUrl": "/id/point-blank"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/lifeafter_tile.jpeg",
+                "productName": "LifeAfter",
+                "productUrl": "/id/lifeafter"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Blockman Go_tile.png",
+                "productName": "Blockman Go: Blocky Mods",
+                "productUrl": "/id/blockman-go"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/aov_tile.jpg",
+                "productName": "AOV",
+                "productUrl": "/id/arena-of-valor"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/gameofsultans_tile.jpg",
+                "productName": "Game of Sultans",
+                "productUrl": "/id/game-of-sultans"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Identity V_tile.jpg",
+                "productName": "Identity V",
+                "productUrl": "/id/identity-v"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/chessrush_tile.jpg",
+                "productName": "Chess Rush",
+                "productUrl": "https://www.midasbuy.com/midasbuy/id/buy/chessrush?from=__mds_buy_codashop&sc=codapay:*"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pubgm_lite_tile.png",
+                "productName": "PUBG Mobile Lite",
+                "productUrl": "https://www.midasbuy.com/midasbuy/id/buy?appid=1450017788&sc=codapay:*"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/onmyojiarena_tile.jpg",
+                "productName": "Onmyoji Arena",
+                "productUrl": "/id/onmyoji-arena"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/lords_mobile_tile.png",
+                "productName": "Lords Mobile",
+                "productUrl": "/id/lords-mobile"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/db_tile.png",
+                "productName": "Dragon Brawlers",
+                "productUrl": "/id/dragon-brawlers"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/YongHeroes_tile.png",
+                "productName": "Yong Heroes",
+                "productUrl": "/id/yong-heroes"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/CrasherOrigin_tile.png",
+                "productName": "Crasher:Origin",
+                "productUrl": "/id/crasher-origin"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/lumiasaga_tile.jpg",
+                "productName": "Lumia Saga",
+                "productUrl": "/id/lumia-saga"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/devilhunter_tile.png",
+                "productName": "Devil Hunter",
+                "productUrl": "/id/devil-hunter"
+            },
+
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/last_empire_war_tile.jpg",
+                "productName": "Last Empire War Z",
+                "productUrl": "/id/last-empire-war-z"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Rise_of_Empires_tile.jpg",
+                "productName": "Rise of Empires: Ice and Fire",
+                "productUrl": "/id/rise-of-empires-ice-and-fire"
+            },
+
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/laplace_m_tile.jpg",
+                "productName": "Laplace M",
+                "productUrl": "/id/laplace-m"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/love_nikki_tile.jpg",
+                "productName": "Love Nikki",
+                "productUrl": "/id/love-nikki"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Mr_Love_Dream_Date_tile.png",
+                "productName": "Mr Love: Dream Date",
+                "productUrl": "/id/dream-date"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/crisis_action_tile.jpg",
+                "productName": "Crisis Action",
+                "productUrl": "/id/crisis-action"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/speed_drifter_tile.jpg",
+                "productName": "Speed Drifters",
+                "productUrl": "/id/speed-drifters"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/saint_seiya_tile.png",
+                "productName": "Saint Seiya",
+                "productUrl": "/id/saint-seiya-awakening"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/LightofThel_tile.png",
+                "productName": "Light of Thel: Glory of Cepheus",
+                "productUrl": "/id/light-of-thel-glory-of-cepheus"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/wor_tile.png",
+                "productName": "War of Rings",
+                "productUrl": "/id/war-of-rings"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/mu_origin_tile.jpg",
+                "productName": "MU Origin 2",
+                "productUrl": "/id/mu-origin-2"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/rideoutheroes_tile.jpg",
+                "productName": "Ride Out Heroes",
+                "productUrl": "/id/ride-out-heroes"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/supermecha_tile.png",
+                "productName": "Super Mecha Champions",
+                "productUrl": "/id/super-mecha-champions"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/era_of_celestials_tile.jpg",
+                "productName": "Era of Celestials",
+                "productUrl": "/id/era-of-celestials"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/legacy_of_discord_tile.jpg",
+                "productName": "Legacy of Discord",
+                "productUrl": "/id/legacy-of-discord-furiouswings"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/eclipseisle_tile.png",
+                "productName": "Eclipse Isle",
+                "productUrl": "/id/eclipse-isle"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/bleach_tile.png",
+                "productName": "BLEACH Mobile 3D",
+                "productUrl": "/id/bleach-mobile-3d"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/disorder_tile.png",
+                "productName": "Disorder",
+                "productUrl": "/id/disorder"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/domino99_tile.jpg",
+                "productName": "Domino Qiu Qiu",
+                "productUrl": "/id/domino-qiuqiu-topfun"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/barbarq_tile.jpg",
+                "productName": "BarBarQ",
+                "productUrl": "/id/barbarq"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/dominoqq_tile.png",
+                "productName": "Domino Qiu Qiu",
+                "productUrl": "/id/domino-qiuqiu"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/boyaa_dominoqq_tile.png",
+                "productName": "Domino QiuQiu: Domino 99",
+                "productUrl": "/id/domino-qiuqiu-domino-99"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/daybreak_legend_tile.jpg",
+                "productName": "Daybreak Legends",
+                "productUrl": "/id/daybreak-legends"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/FoodFantasy_tile.jpg",
+                "productName": "Food Fantasy",
+                "productUrl": "/id/food-fantasy-crystal"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pokertexas_tile.png",
+                "productName": "Poker Texas Boyaa",
+                "productUrl": "/id/poker-texas-boyaa"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/capsasusun_tile.png",
+                "productName": "Domino Gaple Qiuqiu Boyaa (Capsa susun)",
+                "productUrl": "/id/domino-gaple-qiuqiu-boyaa"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/indoplay_tile.jpg",
+                "productName": "Indoplay",
+                "productUrl": "/id/indoplay"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Chaos_Crisis_tile.jpg",
+                "productName": "Chaos Crisis",
+                "productUrl": "/id/chaos-crisis"
+            }
+        ]
+    },
+    "categorySection-1": {
+        "name": "Top-up Video Langsung",
+        "shortDescription": "",
+        "products": [{
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/NimoTV_tile.png",
+                "productName": "Nimo TV",
+                "productUrl": "/id/nimo-tv"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/cocofun_tile.png",
+                "productName": "CocoFun",
+                "productUrl": "/id/cocofun"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/mangolive_tile.jpg",
+                "productName": "Mango Live",
+                "productUrl": "/id/mango-live"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/omletarcade_tile.png",
+                "productName": "Omlet Arcade",
+                "productUrl": "/id/omlet-arcade"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/bigo_tile.jpg",
+                "productName": "Bigo Live",
+                "productUrl": "/id/bigo-live"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/likee_tile.png",
+                "productName": "Likee",
+                "productUrl": "/id/likee"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/starmaker_tile.jpg",
+                "productName": "StarMaker",
+                "productUrl": "/id/starmaker"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/livu_promo_tile.png",
+                "productName": "LivU",
+                "productUrl": "/id/livu"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/tumile_promo_tile.jpg",
+                "productName": "Tumile",
+                "productUrl": "/id/tumile"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/mixu_tile.png",
+                "productName": "Mixu",
+                "productUrl": "/id/mixu"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/turbovpn_tile.png",
+                "productName": "Turbo VPN",
+                "productUrl": "/id/turbo-vpn"
+            }
+        ]
+    },
+    "categorySection-2": {
+        "name": "Beli Kode Voucher",
+        "shortDescription": "",
+        "products": [{
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/gpbhn_tile.jpg",
+                "productName": "Kode Voucher Google Play",
+                "productUrl": "/id/kode-voucher-google-play"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/steam_tile.jpg",
+                "productName": "Steam Wallet Code",
+                "productUrl": "/id/steam-wallet-code-indonesia"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/psn_store_tile.jpg",
+                "productName": "PlayStation PSN Card",
+                "productUrl": "/id/psn-playstation-card"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/tinder_tile.jpg",
+                "productName": "Tinder Voucher Code",
+                "productUrl": "/id/tinder-voucher-code"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/okcupid_tile3.png",
+                "productName": "OK Cupid",
+                "productUrl": "/id/okcupid"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/spotify_tile.png",
+                "productName": "Spotify Premium Voucher",
+                "productUrl": "/id/spotify-premium-voucher"
+            },
+
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pubgm_rps_tile.jpg",
+                "productName": "PUBG Mobile UC Vouchers",
+                "productUrl": "/id/pubg-mobile-uc-redeem-code"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/garena_shells_tile.jpg",
+                "productName": "Garena Shells",
+                "productUrl": "/id/garena-shells-voucher"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/bdr_tile.jpg",
+                "productName": "Black Desert SEA",
+                "productUrl": "/id/black-desert-sea"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/minecraft_tile.jpg",
+                "productName": "Minecraft",
+                "productUrl": "/id/minecraft-java-edition"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/megaxus_tile.jpg",
+                "productName": "Megaxus",
+                "productUrl": "/id/megaxus-mi-cash-voucher"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/nintendoeshop_tile.jpg",
+                "productName": "Nintendo eShop (US)",
+                "productUrl": "/id/nintendo-eshop-card-us"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/xboxgiftcard_tile.jpg",
+                "productName": "Xbox Gift Card (US)",
+                "productUrl": "/id/xbox-gift-card-us"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Blizzard_tile.jpg",
+                "productName": "Blizzard Balance",
+                "productUrl": "/id/blizzard-balance-indonesia"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/FIFA_tile.jpg",
+                "productName": "FIFA Points Voucher",
+                "productUrl": "/id/fifa-points-voucher"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/viu_tile.jpg",
+                "productName": "Viu",
+                "productUrl": "/id/viu-premium"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/goplay_tile.png",
+                "productName": "GoPlay",
+                "productUrl": "/id/goplay"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/vidio_tile.png",
+                "productName": "VIDIO",
+                "productUrl": "/id/vidio"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/wetv_tile.jpg",
+                "productName": "WeTV",
+                "productUrl": "/id/wetv-vip"
+            },
+            {
+                "thumbnailUrl": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/contra_tile.jpg",
+                "productName": "Contra: Returns",
+                "productUrl": "/id/garena-contra-return-shells-voucher"
+            }
+        ]
+    },
+
+    "aboutSection": {
+        "title": "Codashop: Website top-up terbesar & terpercaya di Indonesia",
+        "subTitle": "Setiap bulannya, jutaan gamers menggunakan Codashop untuk melakukan pembelian kredit game dengan lancar: tanpa registrasi ataupun log-in, dan kredit permainan akan ditambahkan secara instan. Top-up Mobile Legends, Free Fire, Ragnarok M, dan berbagai game lainnya!",
+        "content": [{
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/usp-icons/pay_in_seconds.png",
+                "altText": "Quick icon",
+                "title": "Bayar dalam hitungan detik",
+                "subTitle": "Hanya dibutuhkan beberapa detik saja untuk menyelesaikan pembayaran di Codashop karena situs kami berfungsi dengan baik dan mudah untuk digunakan."
+            },
+            {
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/usp-icons/fast_delivery.png",
+                "altText": "Delivery icon",
+                "title": "Pengiriman instan",
+                "subTitle": "Ketika kamu melakukan top-up di Codashop, item atau barang yang kamu beli akan selalu dikirim ke akun kamu secara instan dan cepat, tanpa tertunda."
+            },
+            {
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/usp-icons/best_payment_method.png",
+                "altText": "Payments icon",
+                "title": "Metode pembayaran terbaik",
+                "subTitle": "Kami menawarkan begitu banyak pilihan pembayaran mulai dari potong pulsa, e-wallet, bank transfer, dan pembayaran di mini market terdekat."
+            },
+            {
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/usp-icons/time.png",
+                "altText": "Customer Support",
+                "title": "Pelayanan Pelanggan",
+                "subTitle": "Tim support siap membantu Anda dari pukul 9 pagi hingga 12 pagi, 7 hari seminggu. Kirimkan <a href=\"http://bit.ly/idCODAform\" target=\"_blank\"> Support Request Form </a> dan kami akan segera menghubungi Anda!"
+            },
+            {
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/usp-icons/promo.png",
+                "altText": "Promo icon",
+                "title": "Promosi-promosi menarik",
+                "subTitle": "Penggemar game dapat bergantung pada Codashop karena kami memberikan penawaran menarik, diskon dan kode item dari promosi game yang disukai kamu."
+            }
+        ]
+    },
+    "newsBannerSection": {
+        "title": "News & Promotions",
+        "content": [{
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/news/codaclub_news_id.jpeg",
+                "newsPromotionsUrl": "https://community.codashop.com/id",
+                "altText": "Codashop News & Promotions",
+                "title": "Komunitas Codaclub",
+                "subTitle": "Bergabunglah dengan komunitas!"
+            },
+            {
+                "imageUrl": "https://cdn1.codashop.com/S/content/mobile/images/news/waspada_penipuan.jpg",
+                "newsPromotionsUrl": "https://news.codashop.com/id/pengumuman-penting-dari-codashop/",
+                "altText": "Waspada Penipuan",
+                "title": "Waspada Penipuan APK!",
+                "subTitle": "Pengumuman penting dari Codashop"
+            }
+        ]
+    }
+}
