@@ -6,14 +6,14 @@
           class="elevation-10"
           height="30px"
           contain
-          :src="require('@/assets/images/logo.png')"
+          :src="require('@/assets/images/logo-yellow.png')"
         ></v-img>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-divider class="mx-3" vertical></v-divider>
     </v-app-bar>
 
-    <v-main class="grey lighten-3">
+    <v-main class="grey lighten-3 fill-height">
       <v-slide-y-reverse-transition>
         <router-view></router-view>
       </v-slide-y-reverse-transition>

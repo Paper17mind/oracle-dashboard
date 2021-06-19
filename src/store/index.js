@@ -14,6 +14,9 @@ var ls = new secureLS({
 
 Vue.use(Vuex);
 
+function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 export default new Vuex.Store({
     state: {
         authentication: {},
@@ -97,29 +100,25 @@ export default new Vuex.Store({
             commit("cart", cart);
         },
         async login({ commit }, users) {
-            axios
-                .post("/auth/login", users)
-                .then(res => {
-                    axios.defaults.headers.common["Authorization"] =
-                        "Bearer " + res.data.bearer;
-                    commit("authentication", res.data.bearer);
-                    commit("Authorization", true);
-                    commit("user", res.data.user);
-                    commit("code", 200);
-                    // route.push('/switch')
-                    if (res.data.user.role === "Admin") {
-                        nextTick(() => {
-                            route.push("/admin");
-                        });
-                    } else {
-                        route.push("/member");
-                    }
-                })
-                .catch(error => {
-                    alert(error);
-                    console.log(error);
-                    commit("code", error);
-                });
+            const res = await axios.post("/auth/login", users).catch(error => {
+                alert(error);
+                console.log(error);
+                commit("code", error);
+            });
+
+            axios.defaults.headers.common["Authorization"] =
+                "Bearer " + res.data.bearer;
+            commit("authentication", res.data.bearer);
+            commit("Authorization", true);
+            commit("user", res.data.user);
+            commit("code", 200);
+            await timeout(1000);
+            if (res.data.user.role === "Admin") {
+                // route.push("/admin");
+                location.reload();
+            } else {
+                route.push("/member");
+            }
         },
 
         async logout({ commit }) {
@@ -130,7 +129,9 @@ export default new Vuex.Store({
                     commit("Authorization", false);
                     commit("user", { role: "public", id: 0 });
                     commit("code", 200);
-                    route.push("/");
+                    setTimeout(() => {
+                        route.push("/");
+                    }, 500);
                 })
                 .catch(error => {
                     console.log(error);

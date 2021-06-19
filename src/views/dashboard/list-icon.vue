@@ -6,12 +6,15 @@
       </v-col>
     </v-row>
     <v-row v-else>
+      <!-- <v-col cols="12">
+        <v-toolbar flat></v-toolbar>
+      </v-col> -->
       <v-col cols="6" md="2" v-for="x in data" :key="x.name">
         <v-card>
           <v-img :src="x.url"></v-img>
           <v-card-actions>
             <small class="text-wrap">
-              {{ x.name }}
+              {{ x.imageable_id }}
             </small>
             <v-spacer></v-spacer>
             <v-btn icon color="primary" @click="edit(x)">
@@ -29,7 +32,7 @@
           </v-avatar>
         </v-card-title>
         <v-card-text>
-          <v-text-field v-model="forms.name" readonly></v-text-field>
+          <v-text-field v-model="forms.imageable_id"></v-text-field>
           <v-file-input
             v-model="forms.file"
             placeholder="upload image"
@@ -57,20 +60,20 @@ export default {
       data: [],
       forms: {},
       modal: false,
-      index: -1,
+      index: -1
     };
   },
   watch: {
     modal(val) {
       val || this.close();
-    },
+    }
   },
   mounted() {
     this.getData();
   },
   methods: {
     edit(item) {
-      this.index = this.data.indexOf(item);
+      this.index = this.data.findIndex(x => x.id == item.id);
       this.forms = Object.assign({}, item);
       this.$nextTick().then(() => (this.modal = true));
     },
@@ -82,24 +85,24 @@ export default {
     save() {
       const { forms } = this;
       let fd = new FormData();
-      fd.append("name", forms.name);
-      fd.append("file", forms.file);
-      fd.append("url", URL.createObjectURL(forms.file));
-      axios.post("admin/list-image", fd).then((res) => {
-        Object.assign(this.forms[this.index], {
-          url: URL.createObjectURL(forms.file),
-        });
+      fd.append("id", forms.id);
+      fd.append("imageable_id", forms.imageable_id);
+      if (forms.file) {
+        fd.append("file", forms.file);
+        fd.append("url", URL.createObjectURL(forms.file));
+      }
+      axios.post("admin/list-image", fd).then(res => {
+        Object.assign(this.data[this.index], res.data);
         this.close();
       });
     },
     getData() {
-      axios.get("admin/list-image").then((res) => {
+      axios.get("admin/list-image").then(res => {
         this.data = res.data;
       });
-    },
-  },
+    }
+  }
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
