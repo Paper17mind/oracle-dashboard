@@ -30,7 +30,7 @@
       </v-list>
       <template #append>
         <v-list-item @click="$store.dispatch('logout')">
-          <v-list-item-avatar> <v-icon>mdi-power</v-icon> </v-list-item-avatar>
+          <v-list-item-avatar><v-icon>mdi-power</v-icon></v-list-item-avatar>
           <v-list-item-content class="pl-4">
             <v-list-item-title>Logout</v-list-item-title>
             <v-list-item-subtitle>Keluar dari halaman</v-list-item-subtitle>
@@ -52,17 +52,17 @@
 <script>
 export default {
   data: () => ({
-    cards: ["Today", "Yesterday"],
+    cards: ['Today', 'Yesterday'],
     drawer: null,
     links: [
-      ["mdi-cash-multiple", "Penjualan Voucher", "/admin"],
-      ["mdi-account-group", "List Member", "/admin/member"],
-      ["mdi-history", "Status Pembayaran", "/admin/transaction-callback"],
-      ["mdi-ticket-account", "Redeem", "/admin/redeem"],
-      // ["mdi-message", "Callback Pesan", "/admin/callback-pesan"],
-      ["mdi-settings", "Pengaturan Halaman", "/admin/page-setting"],
-      ["mdi-image", "Pengaturan Icon", "/admin/list-image"]
-    ]
-  })
-};
+      ['mdi-cash-multiple', 'Penjualan Voucher', '/admin'],
+      ['mdi-account-group', 'List Member', '/admin/member'],
+      ['mdi-history', 'Status Pembayaran', '/admin/transaction-callback'],
+      ['mdi-ticket-account', 'Redeem', '/admin/redeem'],
+      ['mdi-settings', 'Pengaturan Halaman', '/admin/page-setting'],
+      ['mdi-newspaper', 'Pengaturan Konten', '/admin/content-setting'],
+      ['mdi-image', 'Pengaturan Icon', '/admin/list-image'],
+    ],
+  }),
+}
 </script>

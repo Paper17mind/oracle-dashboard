@@ -81,6 +81,13 @@ const routes = [{
                 meta: { rule: "Admin" }
             },
             {
+                path: "/admin/content-setting",
+                name: "Content Setting",
+                component: () =>
+                    import ("../views/dashboard/content-settings.vue"),
+                meta: { rule: "Admin" }
+            },
+            {
                 path: "/admin/transaction-callback",
                 name: "Riwayat Pembayarn",
                 component: () =>

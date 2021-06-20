@@ -3,8 +3,7 @@
     <v-skeleton-loader
       v-if="data.length == 0"
       type="list-item-avatar-three-line,list-item-avatar-three-line,list-item-avatar-three-line"
-    >
-    </v-skeleton-loader>
+    ></v-skeleton-loader>
     <v-data-iterator v-else :items="data" :search="search">
       <template v-slot:header>
         <v-toolbar class="mb-2 rounded-lg" color="secondary" dark flat>
@@ -82,7 +81,7 @@
 </template>
 
 <script>
-import pages from "@/controller/pages";
+import pages from '@/controller/pages'
 export default {
   data() {
     return {
@@ -90,88 +89,89 @@ export default {
       sheet: false,
       forms: {},
       index: -1,
-      search: null
-    };
+      search: null,
+    }
   },
   watch: {
     sheet(val) {
-      val || this.close();
-    }
+      val || this.close()
+    },
   },
   mounted() {
-    pages.index().then(res => {
-      this.data = res;
-    });
+    pages.index(1).then((res) => {
+      this.data = res
+    })
   },
   methods: {
     edit(item) {
-      this.index = this.data.indexOf(item);
-      this.forms = Object.assign({}, item);
-      this.sheet = true;
+      this.index = this.data.indexOf(item)
+      this.forms = Object.assign({}, item)
+      this.sheet = true
     },
     close() {
-      this.index = -1;
-      this.forms = {};
-      this.sheet = false;
+      this.index = -1
+      this.forms = {}
+      this.sheet = false
     },
     upload() {
-      this.forms.photo = URL.createObjectURL(this.forms.file);
+      this.forms.photo = URL.createObjectURL(this.forms.file)
     },
     save() {
+      this.forms.is_slider = 1
       if (this.index > -1) {
         pages
           .update(this.forms)
-          .then(res => {
-            Object.assign(this.data[this.index], res.data);
+          .then((res) => {
+            Object.assign(this.data[this.index], res.data)
             this.$message({
-              type: "success",
-              message: "Data berhasil diupdate"
-            });
-            this.close();
+              type: 'success',
+              message: 'Data berhasil diupdate',
+            })
+            this.close()
           })
-          .catch(e => {
+          .catch((e) => {
             this.$message({
-              type: "error",
-              message: e
-            });
-          });
+              type: 'error',
+              message: e,
+            })
+          })
       } else {
         pages
           .store(this.forms)
-          .then(res => {
-            this.data.push(res.data);
+          .then((res) => {
+            this.data.push(res.data)
             this.$message({
-              type: "success",
-              message: "Data berhasil diupdate"
-            });
-            this.close();
+              type: 'success',
+              message: 'Data berhasil diupdate',
+            })
+            this.close()
           })
-          .catch(e => {
+          .catch((e) => {
             this.$message({
-              type: "error",
-              message: e
-            });
-          });
+              type: 'error',
+              message: e,
+            })
+          })
       }
     },
     destroy(item) {
-      const c = confirm("Hapus data ?");
-      if (!c) return false;
+      const c = confirm('Hapus data ?')
+      if (!c) return false
       pages
         .destroy(item.id)
-        .then(e => {
-          let i = this.data.indexOf(item);
-          this.data.splice(i, 1);
+        .then((e) => {
+          let i = this.data.indexOf(item)
+          this.data.splice(i, 1)
         })
-        .catch(e => {
+        .catch((e) => {
           this.$message({
-            type: "error",
-            message: e
-          });
-        });
-    }
-  }
-};
+            type: 'error',
+            message: e,
+          })
+        })
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>
