@@ -1,8 +1,8 @@
 const path = require('path')
 
 module.exports = {
-    publicPath: '/oracle/dashboard/',
-    assetsDir: 'oracle/dashboard/',
+    publicPath: '/dashboard/',
+    assetsDir: 'dashboard/',
     transpileDependencies: ['vuetify'],
     runtimeCompiler: true,
     // chainWebpack: (config) => {

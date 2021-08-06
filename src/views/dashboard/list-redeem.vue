@@ -17,7 +17,9 @@
             filled
           ></v-text-field>
           <v-spacer></v-spacer>
-          <!-- <v-btn rounded @click="sheet = true">Add</v-btn> -->
+          <v-btn rounded @click="sheet = true">Tambah</v-btn>
+          <v-divider vertical class="mx-4"></v-divider>
+          <v-btn rounded to="/admin/redeem-history"> Riwayat </v-btn>
         </v-toolbar>
       </template>
 
@@ -33,16 +35,16 @@
             </v-list-item-avatar>
             <v-list-item-content class="align-end">
               <v-list-item-title>
-                Kode Redeem: {{ item.code }}
+                <h3>Kode Redeem: {{ item.redeem_code }}</h3>
               </v-list-item-title>
               <v-list-item-subtitle>
-                Deskripsi: {{ item.description }}
+                Kategori: {{ item.redeem_category }}
               </v-list-item-subtitle>
               <v-list-item-subtitle>
-                Berlaku: {{ item.available }} Hari
+                Berlaku: {{ item.redeem_available }} Hari
               </v-list-item-subtitle>
               <v-list-item-subtitle>
-                Diskon: {{ item.discount }} %
+                Expired: {{ moment(item.expired).format("lll") }}
               </v-list-item-subtitle>
             </v-list-item-content>
             <v-list-item-action>
@@ -68,37 +70,53 @@
         <v-card-text>
           <v-row no-gutters justify="space-between">
             <v-col cols="12">
-              <v-text-field
-                v-model="forms.code"
-                placeholder="Kode Redeem"
-              ></v-text-field>
+              <v-select
+                v-model="forms.redeem_category"
+                placeholder="Kategori"
+                :items="['Silver', 'Gold', 'Bronze']"
+              ></v-select>
             </v-col>
-            <v-col cols="12">
-              <v-text-field
-                v-model="forms.description"
-                placeholder="Deskripsi"
-              ></v-text-field>
-            </v-col>
-            <v-col cols="4" class="px-1">
+            <v-col cols="6" class="px-1">
               <v-text-field
                 type="number"
-                v-model="forms.discount"
-                placeholder="Diskon"
-              ></v-text-field>
-            </v-col>
-            <v-col cols="4" class="px-1">
-              <v-text-field
-                type="number"
-                v-model="forms.available"
+                v-model="forms.redeem_available"
                 placeholder="Berlaku (hari)"
               ></v-text-field>
             </v-col>
-            <v-col class="pt-3 align-content-end" cols="4">
-              <v-switch
-                dense
-                v-model="forms.is_active"
-                label="Active"
-              ></v-switch>
+            <v-col cols="12" md="6">
+              <v-menu
+                ref="menu"
+                v-model="menu"
+                :close-on-content-click="false"
+                :return-value.sync="forms.expired"
+                transition="scale-transition"
+                offset-y
+                min-width="auto"
+              >
+                <template v-slot:activator="{ on, attrs }">
+                  <v-text-field
+                    v-model="forms.expired"
+                    label="Picker in menu"
+                    prepend-icon="mdi-calendar"
+                    readonly
+                    v-bind="attrs"
+                    v-on="on"
+                  ></v-text-field>
+                </template>
+                <v-date-picker v-model="forms.expired" no-title>
+                  <v-spacer></v-spacer>
+                  <v-btn text color="primary" @click="menu = false">
+                    Cancel
+                  </v-btn>
+                  <v-btn
+                    text
+                    color="primary"
+                    @click="$refs.menu.save(forms.expired)"
+                  >
+                    OK
+                  </v-btn>
+                </v-date-picker>
+              </v-menu>
             </v-col>
           </v-row>
         </v-card-text>
@@ -113,26 +131,39 @@
 </template>
 
 <script>
-import pages from "@/controller/redeem";
+import pages from "@/controller/redeem-code";
+import moment from "moment";
+moment.locale("id");
 export default {
   data() {
     return {
+      moment,
       data: [],
       sheet: false,
       forms: {},
       index: -1,
       search: null,
-      loading: false
+      loading: false,
+      menu: false,
     };
   },
   watch: {
+    "forms.redeem_category"(val) {
+      if (val === "Bronze") {
+        this.forms.redeem_available = 5;
+      } else if (val === "Silver") {
+        this.forms.redeem_available = 20;
+      } else if (val === "Gold") {
+        this.forms.redeem_available = 28;
+      }
+    },
     sheet(val) {
       val || this.close();
-    }
+    },
   },
   mounted() {
     this.loading = true;
-    pages.index().then(res => {
+    pages.index().then((res) => {
       this.data = res.data;
       this.loading = false;
     });
@@ -155,35 +186,35 @@ export default {
       if (this.index > -1) {
         pages
           .update(this.forms)
-          .then(res => {
-            Object.assign(this.data[this.index], res.data);
+          .then((res) => {
+            Object.assign(this.data[this.index], res.data.data);
             this.$message({
               type: "success",
-              message: "Data berhasil diupdate"
+              message: "Data berhasil diupdate",
             });
             this.close();
           })
-          .catch(e => {
+          .catch((e) => {
             this.$message({
               type: "error",
-              message: e
+              message: e,
             });
           });
       } else {
         pages
           .store(this.forms)
-          .then(res => {
-            this.data.push(res.data);
+          .then((res) => {
+            this.data.push(res.data.data);
             this.$message({
               type: "success",
-              message: "Data berhasil diupdate"
+              message: "Data berhasil diupdate",
             });
             this.close();
           })
-          .catch(e => {
+          .catch((e) => {
             this.$message({
               type: "error",
-              message: e
+              message: e,
             });
           });
       }
@@ -193,18 +224,18 @@ export default {
       if (!c) return false;
       pages
         .destroy(item.id)
-        .then(e => {
+        .then((e) => {
           let i = this.data.indexOf(item);
           this.data.splice(i, 1);
         })
-        .catch(e => {
+        .catch((e) => {
           this.$message({
             type: "error",
-            message: e
+            message: e,
           });
         });
-    }
-  }
+    },
+  },
 };
 </script>
 

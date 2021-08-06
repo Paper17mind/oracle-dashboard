@@ -5,7 +5,9 @@
       <v-spacer></v-spacer>
       {{ $store.state.user.name }}/
       {{ $store.state.user.role }}
-      <v-icon class="ml-4">mdi-account</v-icon>
+      <v-btn class="ml-4" to="/admin/update-profile" icon>
+        <v-icon>mdi-account</v-icon>
+      </v-btn>
     </v-system-bar>
 
     <v-navigation-drawer v-model="drawer" app>
@@ -52,17 +54,17 @@
 <script>
 export default {
   data: () => ({
-    cards: ['Today', 'Yesterday'],
+    cards: ["Today", "Yesterday"],
     drawer: null,
     links: [
-      ['mdi-cash-multiple', 'Penjualan Voucher', '/admin'],
-      ['mdi-account-group', 'List Member', '/admin/member'],
-      ['mdi-history', 'Status Pembayaran', '/admin/transaction-callback'],
-      ['mdi-ticket-account', 'Redeem', '/admin/redeem'],
-      ['mdi-settings', 'Pengaturan Halaman', '/admin/page-setting'],
-      ['mdi-newspaper', 'Pengaturan Konten', '/admin/content-setting'],
-      ['mdi-image', 'Pengaturan Icon', '/admin/list-image'],
+      ["mdi-cash-multiple", "Penjualan Voucher", "/admin"],
+      ["mdi-account-group", "List Member", "/admin/member"],
+      ["mdi-history", "Status Pembayaran", "/admin/transaction-callback"],
+      ["mdi-ticket-account", "Redeem", "/admin/redeem"],
+      ["mdi-settings", "Pengaturan Halaman", "/admin/page-setting"],
+      ["mdi-newspaper", "Pengaturan Konten", "/admin/content-setting"],
+      ["mdi-image", "Pengaturan Icon", "/admin/list-image"],
     ],
   }),
-}
+};
 </script>

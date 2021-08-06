@@ -9,6 +9,26 @@
 <script>
 import axios from "axios";
 export default {
+  metaInfo() {
+    return {
+      title: this.path,
+      titleTemplate: "%s - Yellowins",
+      htmlAttrs: {
+        lang: "id",
+        amp: true,
+      },
+    };
+  },
+  data() {
+    return {
+      path: "Dashboard",
+    };
+  },
+  watch: {
+    "$route.name"(val) {
+      this.path = val;
+    },
+  },
   mounted() {
     this.$store.dispatch("checkAuth");
     this.$vuetify.theme.dark = true;
@@ -17,7 +37,7 @@ export default {
         "Authorization"
       ] = `Bearer ${this.$store.state.authentication}`;
     }
-  }
+  },
 };
 </script>
 

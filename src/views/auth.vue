@@ -12,8 +12,7 @@
           </v-card-title>
           <v-card-text>
             <v-text-field
-              type="number"
-              placeholder="No Handphone"
+              placeholder="No Hp/Email"
               v-model="forms.phone"
               persistent-hint
               autofocus
@@ -70,33 +69,42 @@ export default {
       forms: {},
       on_reg: false,
       show: false,
-      loading: false
+      loading: false,
     };
+  },
+  computed: {
+    isEmail() {
+      if (!this.forms.phone) return false;
+      return this.forms.phone.match(/[a-z A-Z]/g);
+    },
   },
   methods: {
     login() {
+      if (this.isEmail) {
+        this.forms.email = this.forms.phone;
+      }
       this.$store.dispatch("login", this.forms);
     },
     register() {
       this.loading = true;
-      axios.post("auth/register").then(res => {
+      axios.post("auth/register").then((res) => {
         this.on_reg = true;
         this.$message({
           type: "success",
           message:
-            "Registrasi berhasil, silahkan masukkan otp yang sudah dikirim ke Whatsapp"
+            "Registrasi berhasil, silahkan masukkan otp yang sudah dikirim ke Whatsapp",
         });
         this.loading = false;
       });
-    }
+    },
   },
   beforeCreate() {
-    axios.get("user").then(res => {
+    axios.get("user").then((res) => {
       res.data.role === "Admin"
         ? this.$router.push("/admin")
         : this.$router.push("/member");
     });
-  }
+  },
 };
 </script>
 

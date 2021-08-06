@@ -15,10 +15,14 @@ Vue.prototype.$message = Message;
 Vue.prototype.$confirm = MessageBox.confirm;
 Vue.prototype.$notify = Notification;
 import acl from "./acl/acl.js";
+import VueMeta from 'vue-meta'
 axios.defaults.baseURL =
     "https://projects.papermindvention.com/oracle/backend/api/";
 // axios.defaults.baseURL = 'http://localhost/oracle/api/'
-
+Vue.use(VueMeta, {
+    // optional pluginOptions
+    refreshOnceOnNavigation: true
+})
 Vue.use(axios, VueAxios);
 Vue.config.productionTip = false;
 Vue.mixin({

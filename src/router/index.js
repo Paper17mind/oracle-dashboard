@@ -60,6 +60,13 @@ const routes = [{
                 meta: { rule: "Admin" }
             },
             {
+                path: "/admin/redeem-history",
+                name: "Redeem History",
+                component: () =>
+                    import ("../views/dashboard/list-history-redeem.vue"),
+                meta: { rule: "Admin" }
+            },
+            {
                 path: "/admin/list-image",
                 name: "Icon List",
                 component: () =>
@@ -93,6 +100,13 @@ const routes = [{
                 component: () =>
                     import ("../views/dashboard/transaction-callback.vue"),
                 meta: { rule: "Admin" }
+            },
+            {
+                path: "/admin/update-profile",
+                name: "Profile",
+                component: () =>
+                    import ("../views/profile/change.vue"),
+                meta: { rule: "Admin" }
             }
         ]
     }
@@ -100,7 +114,7 @@ const routes = [{
 
 const router = new VueRouter({
     mode: "history",
-    base: "/oracle/dashboard/", //process.env.BASE_URL,
+    base: "/dashboard/", //process.env.BASE_URL,
     routes
 });
 // router.beforeEach((to, from, next) => {
